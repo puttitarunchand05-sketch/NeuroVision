@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+
+# Node / React
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vscode/
+.idea/
+
+# Database & Uploads
+*.sqlite3
+*.db
+uploads/images/*
+uploads/videos/*
+uploads/audio/*
+!uploads/**/.gitkeep
+outputs/predictions/*
+outputs/heatmaps/*
+outputs/spectrograms/*
+outputs/processed_videos/*
+!outputs/**/.gitkeep
+
+# Operating System
+.DS_Store
+Thumbs.db
